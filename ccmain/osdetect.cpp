@@ -33,8 +33,8 @@
 #include "tesseractclass.h"
 #include "textord.h"
 
-const int kMinCharactersToTry = 50;
-const int kMaxCharactersToTry = 5 * kMinCharactersToTry;
+const int kMinCharactersToTry = 5;
+const int kMaxCharactersToTry = 50 * kMinCharactersToTry;
 
 const float kSizeRatioToReject = 2.0;
 const int kMinAcceptableBlobHeight = 10;
